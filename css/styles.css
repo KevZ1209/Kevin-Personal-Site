@@ -1,0 +1,94 @@
+html {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    min-height: 200px;
+}
+
+img {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bg-navy {
+    background-color: #191970;
+}
+
+.bg-navy-dark {
+    background-color: #00005C;
+}
+
+/* navbar */
+nav {
+    padding-top: 30px;
+}
+
+#hamburger {
+    height: 24px;
+}
+
+.links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.links a:hover {
+    color: rgb(72, 94, 142);
+}
+
+.hide {
+    visibility: hidden;
+}
+
+/* All Sections */
+.section-header {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+/* Profile Section */
+
+#profile-section {
+    text-align: center;
+}
+
+#big-name {
+    font-size: 48px;
+}
+
+#profile-img {
+    height: 250px;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+
+/* if screen size is above 600 px in width */
+@media screen and (min-width: 601px) {
+
+}
+
+/* if screen size is 600 px or smaller in width */
+@media only screen and (max-width: 600px) {
+
+}
